@@ -1,0 +1,8 @@
+System.IO.FileNotFoundException: Could not find file 'E:\SEJ\Portfolio\객체지향\gameDemo\score.txt'.
+File name: 'E:\SEJ\Portfolio\객체지향\gameDemo\score.txt'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at gameDemo.Form1.StartGame() in A:\SEJ2021-1\객체지향\gameDemo\Form1.cs:line 156
